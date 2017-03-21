@@ -6,21 +6,21 @@
   <title>deploy by hexo with nopassword | blog by hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="1)create id_rsa.pub by ssh-keygen1ssh-keygen -t rsa -C &amp;quot;yangfei5459@126.com&amp;quot;
-2)add content of id_rsa.pub to github useraccount/setting/ssh3)validatessh -T git@github.com
-4)hexo deploy12hexo">
+2)add content of id_rsa.pub to github useraccount/setting/ssh3)validate1ssh -T git@github.com
+it work if it retur">
 <meta property="og:type" content="article">
 <meta property="og:title" content="deploy by hexo with nopassword">
 <meta property="og:url" content="http://yoursite.com/2017/03/21/deploy-by-hexo-with-nopassword/index.html">
 <meta property="og:site_name" content="blog by hexo">
 <meta property="og:description" content="1)create id_rsa.pub by ssh-keygen1ssh-keygen -t rsa -C &amp;quot;yangfei5459@126.com&amp;quot;
-2)add content of id_rsa.pub to github useraccount/setting/ssh3)validatessh -T git@github.com
-4)hexo deploy12hexo">
-<meta property="og:updated_time" content="2017-03-21T08:28:31.129Z">
+2)add content of id_rsa.pub to github useraccount/setting/ssh3)validate1ssh -T git@github.com
+it work if it retur">
+<meta property="og:updated_time" content="2017-03-21T08:32:44.376Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="deploy by hexo with nopassword">
 <meta name="twitter:description" content="1)create id_rsa.pub by ssh-keygen1ssh-keygen -t rsa -C &amp;quot;yangfei5459@126.com&amp;quot;
-2)add content of id_rsa.pub to github useraccount/setting/ssh3)validatessh -T git@github.com
-4)hexo deploy12hexo">
+2)add content of id_rsa.pub to github useraccount/setting/ssh3)validate1ssh -T git@github.com
+it work if it retur">
   
     <link rel="alternate" href="/atom.xml" title="blog by hexo" type="application/atom+xml">
   
@@ -96,13 +96,17 @@
     <div class="article-entry" itemprop="articleBody">
       
         <h2 id="1-create-id-rsa-pub-by-ssh-keygen"><a href="#1-create-id-rsa-pub-by-ssh-keygen" class="headerlink" title="1)create id_rsa.pub by ssh-keygen"></a>1)create id_rsa.pub by ssh-keygen</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh-keygen -t rsa -C &quot;yangfei5459@126.com&quot;</div></pre></td></tr></table></figure>
-<h2 id="2-add-content-of-id-rsa-pub-to-github-useraccount-setting-ssh"><a href="#2-add-content-of-id-rsa-pub-to-github-useraccount-setting-ssh" class="headerlink" title="2)add content of id_rsa.pub to github useraccount/setting/ssh"></a>2)add content of id_rsa.pub to github useraccount/setting/ssh</h2><h2 id="3-validate"><a href="#3-validate" class="headerlink" title="3)validate"></a>3)validate</h2><p>ssh -T git@github.com</p>
+<h2 id="2-add-content-of-id-rsa-pub-to-github-useraccount-setting-ssh"><a href="#2-add-content-of-id-rsa-pub-to-github-useraccount-setting-ssh" class="headerlink" title="2)add content of id_rsa.pub to github useraccount/setting/ssh"></a>2)add content of id_rsa.pub to github useraccount/setting/ssh</h2><h2 id="3-validate"><a href="#3-validate" class="headerlink" title="3)validate"></a>3)validate</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh -T git@github.com</div></pre></td></tr></table></figure>
+<p>it work if it return this message</p>
+<blockquote>
+<p>Hi yangfei2013! You’ve successfully authenticated, but GitHub does not provide shell access.</p>
 <h2 id="4-hexo-deploy"><a href="#4-hexo-deploy" class="headerlink" title="4)hexo deploy"></a>4)hexo deploy</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">hexo clean</div><div class="line">hexo g -d</div></pre></td></tr></table></figure>
+</blockquote>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/03/21/deploy-by-hexo-with-nopassword/" data-id="cj0ja3ezt0000quixlwgxfigw" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/03/21/deploy-by-hexo-with-nopassword/" data-id="cj0ja8p4n0000rmixx4pvvezb" class="article-share-link">Share</a>
       
       
     </footer>
