@@ -68,6 +68,45 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-deploy-by-hexo-with-nopassword" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/03/21/deploy-by-hexo-with-nopassword/" class="article-date">
+  <time datetime="2017-03-21T08:25:22.000Z" itemprop="datePublished">2017-03-21</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/03/21/deploy-by-hexo-with-nopassword/">deploy by hexo with nopassword</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="1-create-id-rsa-pub-by-ssh-keygen"><a href="#1-create-id-rsa-pub-by-ssh-keygen" class="headerlink" title="1)create id_rsa.pub by ssh-keygen"></a>1)create id_rsa.pub by ssh-keygen</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh-keygen -t rsa -C &quot;yangfei5459@126.com&quot;</div></pre></td></tr></table></figure>
+<h2 id="2-add-content-of-id-rsa-pub-to-github-useraccount-setting-ssh"><a href="#2-add-content-of-id-rsa-pub-to-github-useraccount-setting-ssh" class="headerlink" title="2)add content of id_rsa.pub to github useraccount/setting/ssh"></a>2)add content of id_rsa.pub to github useraccount/setting/ssh</h2><h2 id="3-validate"><a href="#3-validate" class="headerlink" title="3)validate"></a>3)validate</h2><p>ssh -T git@github.com</p>
+<h2 id="4-hexo-deploy"><a href="#4-hexo-deploy" class="headerlink" title="4)hexo deploy"></a>4)hexo deploy</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">hexo clean</div><div class="line">hexo g -d</div></pre></td></tr></table></figure>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/03/21/deploy-by-hexo-with-nopassword/" data-id="cj0ja3ezt0000quixlwgxfigw" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-how-to-build-blog-with-hexo" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2017/03/21/how-to-build-blog-with-hexo/" class="article-date">
@@ -104,7 +143,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/03/21/how-to-build-blog-with-hexo/" data-id="cj0j9vju10001phixtictvqe2" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/03/21/how-to-build-blog-with-hexo/" data-id="cj0ja3f070002quix4y7k7j2j" class="article-share-link">Share</a>
       
       
     </footer>
@@ -149,7 +188,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/03/21/hello-world/" data-id="cj0j9vjtt0000phix4ybdd817" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/03/21/hello-world/" data-id="cj0ja3f020001quixkav50btv" class="article-share-link">Share</a>
       
       
     </footer>
@@ -187,6 +226,10 @@
     <h3 class="widget-title">最新文章</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2017/03/21/deploy-by-hexo-with-nopassword/">deploy by hexo with nopassword</a>
+          </li>
         
           <li>
             <a href="/2017/03/21/how-to-build-blog-with-hexo/">how to build blog with hexo</a>
